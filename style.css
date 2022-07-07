@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#info{
+    background-color: #673ab7;
+    height: 60px;
+    width: 139px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+#container{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.toast{
+    background: violet;
+    color: white;
+    width: 172px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
